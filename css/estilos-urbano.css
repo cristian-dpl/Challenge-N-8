@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+/* #ff0000 rojo */
+/* #00000080 negro */
+/* #f5f5dc beige */
+/* #5a5159cc gris */
+/* #fdec02 amarillo */
+/* #2e00fa66 azul */
+/* #ff730066 naraja */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Covered By Your Grace", cursive;
+
+}
+
+html{
+    background-image: url(/img/calles-sucias-paredes-graffiti-vida-caotica-ciudad-generada-ai_188544-30836.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.502);
+    padding: 15px 0;
+}
+
+h1{
+    color: #f5f5dc;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    background-color: rgba(90, 81, 89, 0.8);
+    border-radius: 40px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 25px;
+    text-shadow: 8px 8px 3px black;
+}
+
+form{
+    width: 100%;
+}
+
+section{
+    width: 65%;
+    margin: 15px auto;
+    background-color: #5a5159cc;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+fieldset{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to right, #2e00fa66, #eeff0466, #ff730066);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+legend{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bolder;
+    background: linear-gradient(to right, rgb(253, 236, 2), rgb(46, 0, 250));
+    border-radius: 20px;
+}
+
+fieldset > input{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+fieldset select{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+fieldset textarea{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.border{
+    border: 10px dashed #fdec02 ;
+    margin: 30px auto;
+    width: 20%;
+}
+
+.genero p{
+    text-align: center;
+}
+
+.actividades fieldset{
+    display: block;
+}
+
+.actividades fieldset > input{
+    width: 5%;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.condiciones{
+    width: 25%;
+}
+
+.condiciones:focus-within{
+    background: linear-gradient(to right, rgba(46, 0, 250, 1), rgba(238, 255, 4, 1), rgba(255, 115, 0, 1));
+}
+
+section:focus-within{
+    background: linear-gradient(to right, rgba(46, 0, 250, 1), rgba(238, 255, 4, 1), rgba(255, 115, 0, 1));
+}
+
+fieldset:focus-within{
+    background-color: rgba(90, 81, 89, 0.8);
+}
+
+.btn{
+    width: 25%;
+    text-align: center;
+}
+
+.btn button{
+    width: 90%;
+    font-size: 1.4rem;
+    margin: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #ff0000;
+    border: none;
+    padding: 2px;
+}
+
+.divboton{
+    text-align: end;
+    margin: 5px 20px;
+}
+
+.boton3{
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton3:hover{
+    cursor: pointer;
+    background-color: #ff0101;
+    color: #E8EAED;
+}
+
+
+
+
+

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    width: 100%;
+    background-color: #1F2023;
+}
+
+h1{
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+    color: #E8EAED;
+    font-size: 2rem;
+    margin: 2rem auto;
+    border: 15px  solid #4D6D63;
+    border-left: 20px dotted #1F2023;
+    border-right: 20px dotted #1F2023;
+    width: 50%;
+}
+
+form{
+    width: 100%;
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+fieldset{
+    background-color: #D6E2DE;
+    border: 1px solid #4D6D63;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+legend{
+    background-color: #4D6D63;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-variant: small-caps;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+fieldset > input{
+    width: 70%;
+    padding: 5px;
+    text-align: end;
+}
+
+fieldset select{
+    width: 70%;
+    padding: 5px;
+}
+
+fieldset textarea{
+    max-width: 70%;
+    width: 70%;
+    min-width: 70%;
+    text-align: end;
+}
+
+.datos-personales input:focus{
+    background-color: #2B3D37;
+    color: #E8EAED;
+}
+
+.datos-personales select:focus{
+    background-color: #2B3D37;
+    color: #E8EAED;
+}
+
+.datos-personales textarea:focus{
+    background-color: #2B3D37;
+    color: #E8EAED;
+}
+
+.contacto input:focus{
+    background-color: #2B3D37;
+    color: #E8EAED;
+}
+
+
+fieldset:focus-within{
+    background-color: #A6C1B1;
+}
+
+/* No encontre la manera de darle focus al legend */
+
+.contacto fieldset input{
+    text-align: end;
+}
+
+.genero{
+    text-align: center;
+}
+
+.genero label{
+    margin: 5px;
+}
+
+.border{
+    border-bottom: 10px dotted #D6E2DE;
+    width: 15%;
+    margin: 15px auto;
+}
+
+.actividades fieldset{
+    display: block;
+}
+
+.actividades fieldset > input{
+    width: 5%;
+}
+
+.condiciones{
+    color: #ffff;
+}
+
+.condiciones input{
+    margin-bottom: 15px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    background-color: #2B3D37;
+    color: #A6C1B1;
+    padding: 10px;
+    border: 1px solid #4D6D63;
+    margin: 15px;
+    border-radius: 3px;
+}
+
+.btn button:hover{
+    background-color: #A6C1B1;
+    color: #1F2023;
+    outline: 1px solid white ;
+    border: 1px solid #1F2023;
+    cursor: pointer; 
+}
+
+.divboton{
+    text-align: end;
+    margin: 20px;
+}
+
+.boton3{
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton3:hover{
+    cursor: pointer;
+    background-color: #ff0101;
+    color: #E8EAED;
+}
+
+
+
+
